@@ -598,6 +598,7 @@ progress {
 }
 
 .img-fluid {
+  width: -webkit-fill-available;
   max-width: 100%;
   height: auto;
   border-radius: 20px
@@ -10946,11 +10947,12 @@ p {
   }
 }
 header.masthead {
+  width: fit-content;
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
   color: black;
-  background-image: url("../assets/img/header-bg");
+  background-image: url("../assets/img/header-bg2.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
