@@ -62,8 +62,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #ffc800;
-  --bs-link-hover-color: #cca000;
+  --bs-link-color: #f737cd;
+  --bs-link-hover-color: #f737cd;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff4cc;
 }
@@ -2982,7 +2982,7 @@ textarea.form-control-lg {
   --bs-btn-hover-border-color: #ffc800;
   --bs-btn-focus-shadow-rgb: 255, 200, 0;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #ffc800;
+  --bs-btn-active-bg: #f737cd;
   --bs-btn-active-border-color: #ffc800;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #ffc800;
@@ -8030,7 +8030,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgb(255 124 214)!important;
 }
 
 .text-secondary {
@@ -10900,7 +10900,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #f737cd;
 }
 
 @media (min-width: 992px) {
@@ -10996,7 +10996,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
+  background: #ffc0cbba;
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -11035,7 +11035,7 @@ header.masthead .masthead-heading {
   text-align: center;
 }
 .portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 3rem;
 }
 .portfolio-modal .modal-content p.item-intro {
@@ -11308,4 +11308,26 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media (max-width: 576px) {
+  .modal-body h2 {
+      font-size: 1.5em;
+      word-wrap: break-word;
+  }
+  .modal-body p {
+      font-size: 1em;
+  }
+  .modal-body ul {
+      padding-left: 1rem;
+  }
+  .modal-body {
+      padding: 1rem;
+  }
+}
+
+/* Ajustes generales para asegurar que el contenido no se salga del contenedor */
+.modal-body {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
