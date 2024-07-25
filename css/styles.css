@@ -62,8 +62,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #f737cd;
-  --bs-link-hover-color: #f737cd;
+  --bs-link-color: pink;
+  --bs-link-hover-color: pink;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff4cc;
 }
@@ -2958,9 +2958,9 @@ textarea.form-control-lg {
 }
 
 .btn-dark {
-  --bs-btn-color: #fff;
-  --bs-btn-bg:  rgb(255 124 214);
-  --bs-btn-border-color: rgb(255 124 214);
+  --bs-btn-color: #00000081;
+  --bs-btn-bg: pink;
+  --bs-btn-border-color: pink;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #424649;
   --bs-btn-hover-border-color: #373b3e;
@@ -8029,7 +8029,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgb(255 124 214)!important;
+  color: pink!important;
 }
 
 .text-secondary {
